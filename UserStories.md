@@ -18,3 +18,5 @@ navagate and get info fast so that, I can have more time for planning.
 (7) As the secretary I want to be able to have easy access to data so that I am better able to phone bank.
 
 (8) As an active member I want to be able to sign in faster so that I dont spend 5 Minutes filling out the same information time and time again.
+
+(9)As a user I want to be able to 
