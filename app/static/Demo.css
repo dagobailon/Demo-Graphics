@@ -1,0 +1,52 @@
+
+h1{color:grey;
+	text-align: center;
+
+}
+
+body {background-color:black;}
+
+div.line-block {display: inline-block;}
+
+.survey:hover, .membership:hover, .statistics:hover {color:black;}
+
+div.survey {
+	font-size:45px; 
+	position:relative;
+	top:60px;
+	padding-top: 60px;
+	background-color:blue;
+	font-family:'century gothic';
+	height: 400px;
+	width: 500px;
+	margin:10px;
+	border-radius:10px;
+}
+
+
+div.membership {
+	font-size: 45px;
+	position:relative;
+	top:60px;
+	padding-top: 60px;
+	background-color:yellow;
+	font-family:'century gothic';
+	height: 400px;
+	width: 500px;
+	margin:10px;
+	border-radius:10px;
+}
+
+div.statistics {
+	font-size: 45px;
+	position:relative;
+	left: 0px;
+	top: 80px;
+	padding-top: 60px;
+	background-color:red;
+	font-family:'century gothic';
+	height: 400px;
+	width: 500px;
+	margin:10px;
+	border-radius: 10px;
+}
