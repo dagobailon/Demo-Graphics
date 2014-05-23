@@ -1,16 +1,78 @@
 
 h1{color:grey;
 	text-align: center;
+	}
 
-}
-
-body {background-color:black;}
+body {background-color: black;}
 
 div.line-block {display: inline-block;}
 
 .survey:hover, .membership:hover, .statistics:hover {color:black;}
 
-div.survey {
+a{ color:white;
+	font-size: 25px;
+}
+
+div.home {
+	font-size: 25px;
+	color:grey;
+	position:relative;
+	top:10px;
+	padding-top: 10px;
+	background-color:yellow;
+	font-family:'century gothic';
+	height: 30px;
+	width: 150px;
+	margin: 5px;
+	border-radius: 5px;
+}
+
+
+div.about {font-size:25px; 
+	color:grey;
+	position:relative;
+	top:10px;
+	padding-top: 10px;
+	background-color:blue;
+	font-family:'century gothic';
+	height: 30px;
+	width: 150px;
+	margin: 5px;
+	border-radius:5px;}
+
+div.contact {
+	font-size: 2;
+	position:relative;
+	left: 0px;
+	top: 10px;
+	padding-top: 10px;
+	background-color:red;
+	font-family:'century gothic';
+	height: 30px;
+	width: 150px;
+	margin:5px;
+	border-radius: 5px;
+}
+#members{
+	font-size: 25px;
+	height: 50%;
+	width: 30%;
+	color:grey;
+
+
+}
+#submit{
+height: 50%;
+width:30%;
+color: grey;
+}
+
+#form {
+	font-size: 25px;
+	color: grey;
+}
+
+ div.survey {
 	font-size:45px; 
 	position:relative;
 	top:60px;

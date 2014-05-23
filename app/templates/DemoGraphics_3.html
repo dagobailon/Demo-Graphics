@@ -1,40 +1,56 @@
+{% extends "base.html" %}
+{% block content %}
+
+
 <html>
 
-<head>
-
-<link rel="stylesheet" type="text/css" href="Demo.css">
-
-</head>
 
 
 <body>
 
+<center>
+
 <h1> Welcome<h1>
 
 
-<p> AZQUIP Member </p>
+	<form id='members'>
+
+	<input id="search" type="text" placeholder="Not Your First Time?">
+	<input id="submit" type="submit" name="submit"> </form>
 
 
-<form>
-First Name: <input type="First Name" name="pwd">
+
+<form action="{{url_for('member')}}">
+First Name: <input type="First Name" name="Firs Name">
 <br>
 <br>
-Last Name: <input type="Last Name"="pwd">
+Last Name: <input type="Last Name" name="Last Name">
 <br>
 <br>
-Address: <input type="Address"="pwd">
+Address: <input type="Address"= name"Address">
 <br>
 <br>
-Zipcode: <input type="Zipcode"="pwd">
+Zipcode: <input type="Zipcode" name="Zipcode">
 <br>
 <br>
-Gender Identity: <input type="Gender Identity"="pwd">
+Gender Identity: <input type= name"Gender Identity"="Gender Identity">
 <br>
 <br>
-Email: <input type="Email"="pwd">
+Email: <input type="Email" name="Email">
+
+
+<p><input type="submit" value="Submit"></p>
+
 </form>
 
 
 
 
+</center>
+
+
+
 </body>
+
+
+{% endblock %}

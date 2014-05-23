@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='Demo.css') }}">
+    <title> Demo-Graphics </title>
+    
+  </head>
+  <body>
+	<h1> Demo-Graphics </h1>    
+
+<center>
+
+<a href="{{ url_for('DemoGraphics_3') }}"><div class='home line-block'>Home</div></a>
+    
+<a href="{{ url_for('DemoGraphics_3') }}"><div class='about line-block'>About</div></a>
+
+<a href="{{ url_for('DemoGraphics') }}"><div class='contact line-block'>Log Out</div></a>
+
+</center>
+
+    {% block content %}{% endblock %}
+      
+
+
+
+  </body>
+</html>

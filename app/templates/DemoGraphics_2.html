@@ -1,26 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+
 <html>
 
-
-<link rel="stylesheet" type="text/css" href="Demo.css">
+<head>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='Demo.css')}}">
 
 <title> Welcome </title>
-
+</head>
 
 
 <body>
 <center>
-<div class='survey line-block'>
-	
- 
-<div><h1 class='survey'> Survey <h1></div>
+
+<!--<div class="survey">
+    
+<a href="{{ url_for('survey') }}">Survey</a>
+</div>-->
+<a href="{{ url_for('survey') }}"><div class='survey line-block'>
+<h1 class='survey'><div> Survey <h1></div> 
 
 
-</div>
+</div></a>
 
 
-<div class='membership line-block'>
+<a href="{{ url_for('DemoGraphics_3') }}"><div class='membership line-block'>
 <h1 class='membership'><div>Membership</div></h1>
-</div>
+</div></a>
 
 
 
@@ -39,3 +45,5 @@
 
 
 </html>
+
+{% endblock %}

@@ -1,31 +1,31 @@
-<html>
-<head>
-<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='Demo.css') }}">
 
-</head>
-
-
-<h1> Demo-Graphics<h1>
+{% extends "base.html" %}
+{% block content %}
 
 
 
-<body>
 <center>
 
+<br>
+<img src="{{ url_for('static', filename='3d_pie_chart.jpg') }}" width="45%" height="45%" />
 
-<img src="{{ url_for('static', filename='3d_pie_chart.jpg') }}" width="50%" height="50%" />
 
 
 <form>
-Username: <input type="username" name="pwd">
+	<div id="form">
+Email: <input type="  email " name="username">
 </form>
 
-
+<br>
 <form>
 Password: <input type="password" name="pwd">
 </form>
-<p><button type="button">Submit</button></p>
 
+</div>
+
+<!--<p><button type="button">Submit</button></p>-->
+<br>
+<a href="{{ url_for('DemoGraphics_2') }}">Submit</a>
 <p><a href="password.html"> Forget Password</a></p>
 
 <a href="username.html">Username?</a>
@@ -34,11 +34,11 @@ Password: <input type="password" name="pwd">
 
 
 </center>
-</body>
 
 
 
 
+{% endblock%}
 
 
-</html>
+
